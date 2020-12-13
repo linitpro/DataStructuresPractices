@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc835bcc-e9e1-4103-97a5-31591abb52a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HashTableSample/HashTable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTableSample/HashTableDefaults.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTableSample/HashTableItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTableSample/HashTableSample.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTableSample/IHashTableItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HashTableSample/MD5.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/HashTableSampleTests/HashTableSampleTests.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/HashTableSampleTests/UnitTest1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PriorityQueueSample/IPriorityQueue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PriorityQueueSample/PriorityQueue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PriorityQueueSample/PriorityQueueSample.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/PriorityQueueSampleTest/PriorityQueueSampleTest.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/PriorityQueueSampleTest/UnitTest1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructuresPractices/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructuresPractices/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructuresPractices/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructuresPractices/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructuresPractices.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructuresPractices.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructuresPractices.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructuresPractices.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +38,10 @@
       <option value="$PROJECT_DIR$/../tests/DataStructuresPractices/HashTableSampleTests/UnitTest1.cs" />
       <option value="$PROJECT_DIR$/tests/HashTableSampleTests/HashTableSampleTests.csproj" />
       <option value="$PROJECT_DIR$/DataStructuresPractices.sln" />
+      <option value="$PROJECT_DIR$/src/PriorityQueueSample/Class1.cs" />
+      <option value="$PROJECT_DIR$/src/PriorityQueueSample/IPriorityQueue.cs" />
+      <option value="$PROJECT_DIR$/tests/PriorityQueueSampleTest/UnitTest1.cs" />
+      <option value="$PROJECT_DIR$/src/PriorityQueueSample/PriorityQueue.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lbbhfRabwpQDxWEooVY1D4exFX" />
@@ -59,8 +61,10 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="SolutionBuilderGeneralOptionsPageId" />
   </component>
+  <component name="RunManager" selected="e3bdc09f-3b10-440d-bbf6-3dac3d6cd42f" />
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="1" Folder0="C:\Users\russl\Downloads\ru" CustomDictionaries="1" CustomDictionary0="C:\Users\russl\Downloads\ru\russian.dic" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,7 +76,7 @@
       <workItem from="1607868862607" duration="230000" />
       <workItem from="1607869120344" duration="2340000" />
       <workItem from="1607871508489" duration="2626000" />
-      <workItem from="1607874285932" duration="157000" />
+      <workItem from="1607874285932" duration="2253000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1607873949430</created>
@@ -81,7 +85,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607873949430</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="HashTable sample">
+      <created>1607874520156</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607874520156</updated>
+    </task>
+    <task id="LOCAL-00003" summary="HashTable sample">
+      <created>1607874696178</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607874696178</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,38 +109,38 @@
     <option name="coveragePercentColumnWidth" value="150" />
     <option name="sortOrder" value="DESCENDING" />
     <option name="sortedColumn" value="1" />
-    <option name="symbolColumnWidth" value="279" />
+    <option name="symbolColumnWidth" value="381" />
     <coverage-tree-state>
       <expand>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 82% 19/106" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 98% 2/106" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 82% 19/106" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="src 81% 15/78" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 98% 2/106" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 97% 2/78" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 82% 19/106" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="src 81% 15/78" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="HashTableSample 81% 15/78" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 98% 2/106" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 97% 2/78" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="HashTableSample 97% 2/78" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 82% 19/106" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="src 81% 15/78" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="HashTableSample 81% 15/78" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="HashTableSample 81% 15/78" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 98% 2/106" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 97% 2/78" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="HashTableSample 97% 2/78" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="HashTableSample 97% 2/78" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 82% 19/106" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="src 81% 15/78" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="HashTableSample 81% 15/78" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="HashTableSample 81% 15/78" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="HashTable&lt;TItem&gt; 72% 15/54" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 98% 2/106" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 97% 2/78" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="HashTableSample 97% 2/78" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="HashTableSample 97% 2/78" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="HashTable&lt;TItem&gt; 96% 2/54" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
       </expand>
       <select />
@@ -143,7 +161,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
+    <MESSAGE value="HashTable sample" />
+    <option name="LAST_COMMIT_MESSAGE" value="HashTable sample" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

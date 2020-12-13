@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTableSample", "src\Hash
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTableSampleTests", "tests\HashTableSampleTests\HashTableSampleTests.csproj", "{E1B047B7-7CC7-4CA2-A99E-59B090F786EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriorityQueueSample", "src\PriorityQueueSample\PriorityQueueSample.csproj", "{6BE4875B-04CD-4FB3-9E04-B0D4E15EC93F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriorityQueueSampleTest", "tests\PriorityQueueSampleTest\PriorityQueueSampleTest.csproj", "{787EFA50-F328-4860-84BF-D8FA419F2522}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,7 +20,17 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9AE31EE4-4D23-4B2A-A5FF-AA14FEC03BB7} = {B088D999-7817-4403-9325-898287588D37}
 		{E1B047B7-7CC7-4CA2-A99E-59B090F786EB} = {024BFA93-491A-45F9-BB4F-E1985736E106}
+		{6BE4875B-04CD-4FB3-9E04-B0D4E15EC93F} = {B088D999-7817-4403-9325-898287588D37}
+		{787EFA50-F328-4860-84BF-D8FA419F2522} = {024BFA93-491A-45F9-BB4F-E1985736E106}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BE4875B-04CD-4FB3-9E04-B0D4E15EC93F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BE4875B-04CD-4FB3-9E04-B0D4E15EC93F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BE4875B-04CD-4FB3-9E04-B0D4E15EC93F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BE4875B-04CD-4FB3-9E04-B0D4E15EC93F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{787EFA50-F328-4860-84BF-D8FA419F2522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{787EFA50-F328-4860-84BF-D8FA419F2522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{787EFA50-F328-4860-84BF-D8FA419F2522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{787EFA50-F328-4860-84BF-D8FA419F2522}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
