@@ -3,46 +3,15 @@
   <component name="ContentModelStore">
     <e p="C:\repos\DataStructuresPractices" t="IncludeFlat">
       <e p="DataStructuresPractices.sln" t="IncludeFlat" />
-      <e p="packages" t="ExcludeRecursive" />
       <e p="src" t="Include" />
       <e p="tests" t="Include" />
     </e>
-    <e p="C:\repos\src\DataStructuresPractices\HashTableSample" t="IncludeRecursive">
-      <e p="bin" t="ExcludeRecursive" />
-      <e p="HashTable.cs" t="Include" />
-      <e p="HashTableDefaults.cs" t="Include" />
-      <e p="HashTableItem.cs" t="Include" />
+    <e p="C:\src\HashTableSample" t="IncludeRecursive">
       <e p="HashTableSample.csproj" t="IncludeRecursive" />
-      <e p="IHashTableItem.cs" t="Include" />
-      <e p="MD5.cs" t="Include" />
-      <e p="obj" t="ExcludeRecursive">
-        <e p="Debug" t="Include">
-          <e p="net5.0" t="Include">
-            <e p="HashTableSample.AssemblyInfo.cs" t="Include" />
-          </e>
-        </e>
-      </e>
     </e>
-    <e p="C:\repos\tests\DataStructuresPractices\HashTableSampleTests" t="IncludeRecursive">
-      <e p="bin" t="ExcludeRecursive" />
+    <e p="C:\tests\HashTableSampleTests" t="IncludeRecursive">
       <e p="HashTableSampleTests.csproj" t="IncludeRecursive" />
-      <e p="obj" t="ExcludeRecursive">
-        <e p="Debug" t="Include">
-          <e p="net5.0" t="Include">
-            <e p="HashTableSampleTests.AssemblyInfo.cs" t="Include" />
-          </e>
-        </e>
-      </e>
-      <e p="UnitTest1.cs" t="Include" />
     </e>
-    <e p="C:\Users\russl\.nuget\packages\microsoft.net.test.sdk\16.7.1\build\netcoreapp2.1" t="Include">
-      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
-    </e>
-    <e p="C:\Users\russl\.nuget\packages\microsoft.testplatform.testhost\16.7.1\build\netcoreapp2.1\x64\testhost.dll" t="Include" />
-    <e p="C:\Users\russl\.nuget\packages\microsoft.testplatform.testhost\16.7.1\build\netcoreapp2.1\x64\testhost.exe" t="Include" />
-    <e p="C:\Users\russl\.nuget\packages\xunit.runner.visualstudio\2.4.3\build\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
-    <e p="C:\Users\russl\.nuget\packages\xunit.runner.visualstudio\2.4.3\build\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll" t="Include" />
-    <e p="C:\Users\russl\.nuget\packages\xunit.runner.visualstudio\2.4.3\build\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
     <e p="C:\Users\russl\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
     <e p="C:\Users\russl\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_DataStructuresPractices.-1708527590.00" t="ExcludeRecursive" />
   </component>
